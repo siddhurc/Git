@@ -3,12 +3,16 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
 
 int main()
 {
     std::cout << "Hello World!\n"; 
 	int a = 10;
 	std::cout << a;
+	//all this changes are in branch 1
+	std::string s = "sid";
+	std::cout << s;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
